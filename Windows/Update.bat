@@ -36,6 +36,9 @@ if /i "%reset%" eq "y" (
 rem Build Vencord
 pnpm build
 
+rem Inject Vencord
+pnpm inject
+
 echo Vencord update complete.
 echo Please refresh your client to see the changes.
 pause
